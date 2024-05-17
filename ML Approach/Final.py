@@ -7,10 +7,10 @@ def run_all_models():
     # Call the run_main function from the model script
     print("Random Forest: \n")
     run_mainrfr()
-    print("KNN: \n")
-    run_mainknn()
     print("CNN: \n")
     run_maincnn()
+    print("KNN: \n")
+    run_mainknn()
 
 if __name__ == "__main__":
     # Call the function to run all models
